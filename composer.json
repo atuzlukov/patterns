@@ -1,0 +1,22 @@
+{
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "phpunit/phpunit": "5.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Patterns\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.org"
+    },
+    {
+      "packagist": false
+    }
+  ]
+}
