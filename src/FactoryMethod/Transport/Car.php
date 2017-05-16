@@ -8,7 +8,7 @@ class Car implements TransportInterface
 
     public function move()
     {
-        echo 'car is drive <br />';
+        echo 'car <br />';
     }
 
     public function distance()

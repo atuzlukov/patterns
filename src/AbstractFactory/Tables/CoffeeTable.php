@@ -9,6 +9,6 @@ class CoffeeTable implements TableInterface
 
     public function make()
     {
-        // TODO: Implement make() method.
+        echo 'Журнальный стол<br/>';
     }
 }

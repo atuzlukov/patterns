@@ -9,7 +9,7 @@ class Ship implements TransportInterface
 
     public function move()
     {
-        echo 'ship is swim <br />';
+        echo 'ship <br />';
     }
 
     public function distance()

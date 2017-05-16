@@ -9,6 +9,6 @@ class SteelChair implements ChairInterface
 
     public function make()
     {
-        // TODO: Implement make() method.
+        echo 'Железный стул для пикника<br/>';
     }
 }

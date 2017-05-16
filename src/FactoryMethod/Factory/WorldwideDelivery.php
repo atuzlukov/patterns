@@ -4,6 +4,9 @@
 namespace Patterns\FactoryMethod\Factory;
 
 
+use Patterns\FactoryMethod\Transport\Ship;
+use Patterns\FactoryMethod\Transport\TransportInterface;
+
 class WorldwideDelivery extends DeliveryAbstract
 {
 

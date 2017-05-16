@@ -4,6 +4,8 @@
 namespace Patterns\FactoryMethod\Factory;
 
 
+use Patterns\FactoryMethod\Transport\TransportInterface;
+
 abstract class DeliveryAbstract
 {
 

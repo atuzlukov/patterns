@@ -9,6 +9,6 @@ class WoodChair implements ChairInterface
 
     public function make()
     {
-        // TODO: Implement make() method.
+        echo 'Деревянный кухонный стул<br/>';
     }
 }

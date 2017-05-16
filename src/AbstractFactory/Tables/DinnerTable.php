@@ -9,6 +9,6 @@ class DinnerTable implements TableInterface
 
     public function make()
     {
-        // TODO: Implement make() method.
+        echo 'Обеденный стол<br/>';
     }
 }
