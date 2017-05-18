@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Patterns\Builder\Components;
+namespace Patterns\Builder\Car\Components;
 
 
 class Engine
