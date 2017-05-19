@@ -1,6 +1,7 @@
 <?php
 
-namespace Patterns\FactoryMethod\Transport;
+namespace Patterns\FactoryMethod\Delivery\Transport;
+
 
 
 class Car implements TransportInterface

@@ -1,7 +1,8 @@
 <?php
 
 
-namespace Patterns\FactoryMethod\Transport;
+namespace Patterns\FactoryMethod\Delivery\Transport;
+
 
 
 class Ship implements TransportInterface

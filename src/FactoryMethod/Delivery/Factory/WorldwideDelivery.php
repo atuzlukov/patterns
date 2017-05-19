@@ -1,11 +1,12 @@
 <?php
 
 
-namespace Patterns\FactoryMethod\Factory;
+namespace Patterns\FactoryMethod\Delivery\Factory;
 
 
-use Patterns\FactoryMethod\Transport\Ship;
-use Patterns\FactoryMethod\Transport\TransportInterface;
+
+use Patterns\FactoryMethod\Delivery\Transport\Ship;
+use Patterns\FactoryMethod\Delivery\Transport\TransportInterface;
 
 class WorldwideDelivery extends DeliveryAbstract
 {

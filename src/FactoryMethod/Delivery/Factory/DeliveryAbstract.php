@@ -1,10 +1,12 @@
 <?php
 
 
-namespace Patterns\FactoryMethod\Factory;
+namespace Patterns\FactoryMethod\Delivery\Factory;
 
 
-use Patterns\FactoryMethod\Transport\TransportInterface;
+
+
+use Patterns\FactoryMethod\Delivery\Transport\TransportInterface;
 
 abstract class DeliveryAbstract
 {
