@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Patterns\Builder\Products;
+namespace Patterns\Builder\Car\Products;
 
 
 use Paillechat\Enum\Enum;
