@@ -1,13 +1,14 @@
 <?php
 
 
-namespace Patterns\AbstractFactory\Factories;
+namespace Patterns\AbstractFactory\Furniture\Factories;
 
 
-use Patterns\AbstractFactory\Chairs\ChairInterface;
-use Patterns\AbstractFactory\Chairs\SteelChair;
-use Patterns\AbstractFactory\Tables\DinnerTable;
-use Patterns\AbstractFactory\Tables\TableInterface;
+
+use Patterns\AbstractFactory\Furniture\Chairs\ChairInterface;
+use Patterns\AbstractFactory\Furniture\Chairs\SteelChair;
+use Patterns\AbstractFactory\Furniture\Tables\DinnerTable;
+use Patterns\AbstractFactory\Furniture\Tables\TableInterface;
 
 class IkeaFactory extends FactoryAbstract
 {

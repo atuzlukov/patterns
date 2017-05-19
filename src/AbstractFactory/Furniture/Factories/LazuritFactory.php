@@ -1,13 +1,14 @@
 <?php
 
 
-namespace Patterns\AbstractFactory\Factories;
+namespace Patterns\AbstractFactory\Furniture\Factories;
 
 
-use Patterns\AbstractFactory\Chairs\ChairInterface;
-use Patterns\AbstractFactory\Chairs\WoodChair;
-use Patterns\AbstractFactory\Tables\CoffeeTable;
-use Patterns\AbstractFactory\Tables\TableInterface;
+
+use Patterns\AbstractFactory\Furniture\Chairs\ChairInterface;
+use Patterns\AbstractFactory\Furniture\Chairs\WoodChair;
+use Patterns\AbstractFactory\Furniture\Tables\CoffeeTable;
+use Patterns\AbstractFactory\Furniture\Tables\TableInterface;
 
 class LazuritFactory extends FactoryAbstract
 {

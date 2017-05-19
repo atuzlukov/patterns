@@ -1,11 +1,12 @@
 <?php
 
 
-namespace Patterns\AbstractFactory\Factories;
+namespace Patterns\AbstractFactory\Furniture\Factories;
 
 
-use Patterns\AbstractFactory\Chairs\ChairInterface;
-use Patterns\AbstractFactory\Tables\TableInterface;
+
+use Patterns\AbstractFactory\Furniture\Chairs\ChairInterface;
+use Patterns\AbstractFactory\Furniture\Tables\TableInterface;
 
 abstract class FactoryAbstract
 {

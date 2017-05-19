@@ -1,7 +1,8 @@
 <?php
-use Patterns\AbstractFactory\Factories\IkeaFactory;
-use Patterns\AbstractFactory\Factories\LazuritFactory;
-use Patterns\AbstractFactory\Furniture;
+
+use Patterns\AbstractFactory\Furniture\Factories\IkeaFactory;
+use Patterns\AbstractFactory\Furniture\Factories\LazuritFactory;
+use Patterns\AbstractFactory\Furniture\Furniture;
 
 include_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 

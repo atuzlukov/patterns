@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Patterns\AbstractFactory\Chairs;
+namespace Patterns\AbstractFactory\Furniture\Chairs;
 
 
 class SteelChair implements ChairInterface

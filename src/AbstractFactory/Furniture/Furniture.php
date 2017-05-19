@@ -1,10 +1,11 @@
 <?php
 
 
-namespace Patterns\AbstractFactory;
+namespace Patterns\AbstractFactory\Furniture;
 
 
-use Patterns\AbstractFactory\Factories\FactoryAbstract;
+
+use Patterns\AbstractFactory\Furniture\Factories\FactoryAbstract;
 
 class Furniture
 {

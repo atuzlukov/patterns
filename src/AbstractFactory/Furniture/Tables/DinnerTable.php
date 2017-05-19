@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Patterns\AbstractFactory\Tables;
+namespace Patterns\AbstractFactory\Furniture\Tables;
 
 
 class DinnerTable implements TableInterface
