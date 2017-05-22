@@ -19,7 +19,7 @@ class ChicagoPizzaStore extends PizzaStore
      * @param string $type
      * @return PizzaInterface
      */
-    public function createPizza(string $type): PizzaInterface
+    protected function createPizza(string $type): PizzaInterface
     {
         switch ($type){
             case 'cheese':

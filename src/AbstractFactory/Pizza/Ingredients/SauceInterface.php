@@ -4,7 +4,7 @@
 namespace Patterns\AbstractFactory\Pizza\Ingredients;
 
 
-interface PizzaingredientInterface
+interface SauceInterface
 {
-
+    public function create();
 }

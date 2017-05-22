@@ -1,7 +1,8 @@
 <?php
 
-use Patterns\FactoryMethod\Factory\LocalDelivery;
-use Patterns\FactoryMethod\Factory\WorldwideDelivery;
+
+use Patterns\FactoryMethod\Delivery\Factory\LocalDelivery;
+use Patterns\FactoryMethod\Delivery\Factory\WorldwideDelivery;
 
 include_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 

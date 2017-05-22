@@ -1,11 +1,12 @@
 <?php
 
 
-namespace Patterns\FactoryMethod\Pizza\Store;
+namespace Patterns\AbstractFactory\Pizza\Store;
 
 
 
-use Patterns\FactoryMethod\Pizza\Pizza\PizzaInterface;
+
+use Patterns\AbstractFactory\Pizza\Pizza\PizzaInterface;
 
 abstract class PizzaStore
 {
@@ -35,5 +36,5 @@ abstract class PizzaStore
      * @param string $type
      * @return PizzaInterface
      */
-    abstract protected function createPizza(string $type): PizzaInterface;
+    abstract public function createPizza(string $type): PizzaInterface;
 }
