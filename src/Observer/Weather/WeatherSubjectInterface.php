@@ -18,5 +18,7 @@ interface WeatherSubjectInterface
 
     public function detach (ObservableInterface $observer);
 
+    public function setMeasurements($temperature, $humidity, $pressure);
+
     public function notify ();
 }
