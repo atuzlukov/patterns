@@ -9,7 +9,7 @@ abstract class AbstractBeverage
     /**
      * Процесс приготовления напитка
      */
-    public function prepare()
+    final public function prepare()
     {
         $this->beforePrepare();
         $this->boilWater();
@@ -21,23 +21,23 @@ abstract class AbstractBeverage
     /**
      * Операция зацепка
      */
-    public function beforePrepare()
+    protected function beforePrepare()
     {
         // .... hook
     }
 
-    public function boilWater()
+    protected function boilWater()
     {
         echo 'Вскипятить воду <br>';
     }
 
-    public function pourInCup()
+    protected function pourInCup()
     {
         echo 'Перелить в чашку <br>';
     }
 
-    abstract public function brew();
+    abstract protected function brew();
 
-    abstract public function addCondiments();
+    abstract protected function addCondiments();
 
 }

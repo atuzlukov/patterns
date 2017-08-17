@@ -7,12 +7,12 @@ namespace Patterns\TemplateMethod\Coffee;
 class Coffee extends AbstractBeverage
 {
 
-    public function brew()
+    protected function brew()
     {
         echo 'Заварить кофе <br>';
     }
 
-    public function addCondiments()
+    protected function addCondiments()
     {
         echo 'Добавить молоко и сахар <br>';
     }
